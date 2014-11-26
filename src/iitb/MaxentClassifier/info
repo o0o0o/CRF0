@@ -1,0 +1,19 @@
+// this document illustrates all the related problems regarding the implementation of MaxEntClassifier. 
+
+the problem of maxentClassifier. 
+according to main func. String args[] is taken as the parameter of new Options()
+the property: trainFile is mandatory. then one can use maxent.train(fileName);
+
+First I need to understand how to use Options Class and the MaxentClassifier.
+
+TODO:: now that my task is to let this program run with proper training file!:
+
+now what is a MaxEntClassifier. I need to know the problem setting. An example is spam filtering.
+
+so basically, I know what the MaxEnt classifier is. the input is some training data with values of both
+independent and dependent variables. and the output is the probabilities of different possible categorical values.
+or the most likely value for the dependent variable. 
+
+then how to find out the proper training file? use the exising file in the project. I believe it could be done.
+the first way is to generate the training file using matlab.
+otherwise, use the 
